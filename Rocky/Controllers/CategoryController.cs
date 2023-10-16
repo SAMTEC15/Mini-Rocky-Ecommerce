@@ -53,11 +53,25 @@ namespace Rocky.Controllers
             return View(check);
         }
 
-        //GET-check
-        /*public IActionResult Delete(int? id)
+        //Post - Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                _applicationDbContext.Categories.Update(category);
+                _applicationDbContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(category);
+        }
+
+        //GET-Delete
+        public IActionResult Delete(int? id)
         {
             if (id == null || id == 0)
-            {                
+            {
                 return NotFound();
             }
 
@@ -66,9 +80,24 @@ namespace Rocky.Controllers
             {
                 return NotFound();
             }
-            _applicationDbContext.Categories.Remove(check);
-            var dele = _applicationDbContext.SaveChanges();
-            return View(dele);
-        }*/
+            return View(check);
+        }
+
+        //Post - Edit
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirm(int? id)
+        {
+            var check = _applicationDbContext.Categories.Find(id);
+           if(check == null)
+            {
+                return NotFound();
+            }
+                _applicationDbContext.Categories.Remove(check);
+                _applicationDbContext.SaveChanges();
+                return RedirectToAction("Index");
+            
+           
+        }
     }
 }
