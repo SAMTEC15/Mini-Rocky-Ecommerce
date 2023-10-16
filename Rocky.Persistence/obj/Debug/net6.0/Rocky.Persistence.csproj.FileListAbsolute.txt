@@ -1,0 +1,17 @@
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Persistence.deps.json
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Persistence.dll
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Persistence.pdb
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.csproj.AssemblyReference.cache
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.AssemblyInfoInputs.cache
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.AssemblyInfo.cs
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.dll
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\refint\Rocky.Persistence.dll
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.pdb
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\ref\Rocky.Persistence.dll
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Persistence.runtimeconfig.json
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Domain.dll
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\bin\Debug\net6.0\Rocky.Domain.pdb
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.csproj.CopyComplete
+C:\Users\user1\source\Personal\Project\Rocky\Rocky.Persistence\obj\Debug\net6.0\Rocky.Persistence.genruntimeconfig.cache
