@@ -36,5 +36,39 @@ namespace Rocky.Controllers
             }
             return View(category);
         }
+
+        //GET-Edit
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0)
+            {                
+                return NotFound();                
+            }
+
+            var check = _applicationDbContext.Categories.Find(id);
+            if (check == null)
+            {
+                return NotFound();
+            }
+            return View(check);
+        }
+
+        //GET-check
+        /*public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {                
+                return NotFound();
+            }
+
+            var check = _applicationDbContext.Categories.Find(id);
+            if (check == null)
+            {
+                return NotFound();
+            }
+            _applicationDbContext.Categories.Remove(check);
+            var dele = _applicationDbContext.SaveChanges();
+            return View(dele);
+        }*/
     }
 }
