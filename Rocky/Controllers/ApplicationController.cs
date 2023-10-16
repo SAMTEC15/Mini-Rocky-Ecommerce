@@ -4,16 +4,16 @@ using Rocky.Persistence;
 
 namespace Rocky.Controllers
 {
-    public class CategoryController : Controller
+    public class ApplicationController : Controller
     {
         private readonly ApplicationDbContext _applicationDbContext;
-        public CategoryController(ApplicationDbContext applicationDbContext)
+        public ApplicationController(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> objList = _applicationDbContext.Categories;
+            IEnumerable<Application> objList = _applicationDbContext.Applications;
             return View(objList);
         }
 
@@ -26,15 +26,15 @@ namespace Rocky.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Category category)
+        public IActionResult Create(Application application)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                _applicationDbContext.Categories.Add(category);
+                _applicationDbContext.Applications.Add(application);
                 _applicationDbContext.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(category);
+            return View(application);
         }
     }
 }

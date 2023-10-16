@@ -15,5 +15,6 @@ namespace Rocky.Persistence
             
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Application> Applications { get; set; }
     }
 }
